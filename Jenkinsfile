@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout repository') {
             steps {
-                git 'https://github.com/Piraniks/Frontend'
+                checkout scm
             }
         }
         stage('Install dependencies') {
