@@ -1,6 +1,6 @@
-def imageName="192.168.44.44:8082/docker_registry/frontend" 
-def dockerRegistry="http://192.168.44.44:8082"
-def registryCredentials="artifactory"
+def imageName="piraniks/frontend" 
+def dockerRegistry=""
+def registryCredentials="dockerhub_credentials"
 def dockerTag=""
 
 
